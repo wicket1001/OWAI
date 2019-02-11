@@ -170,3 +170,4 @@ venv.bak/
 .mypy_cache/
 
 Examples/Tester.py
+/.idea/
