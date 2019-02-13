@@ -1,11 +1,9 @@
-import random
 import sys
 
 from PyQt5.QtCore import pyqtSignal, QBasicTimer, Qt, QSize
 from PyQt5.QtGui import QPainter
 from PyQt5.QtWidgets import QFrame
 
-from v1_0.Drawer import Drawer
 from v1_0.Entity import *
 
 

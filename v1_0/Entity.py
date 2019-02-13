@@ -2,6 +2,7 @@ import random
 
 from v1_0.Drawer import Drawer
 
+
 class Entity(object):
     def __init__(self, size):
         self.x = random.randint(0, 1000)
@@ -16,7 +17,7 @@ class Entity(object):
 
     def draw(self, painter, size):
         # print(self.x, self.y)
-        #Drawer.draw_line(painter, (self.x, self.y), (self.x + 10, self.y - 10), (0, 0, 0))
+        # Drawer.draw_line(painter, (self.x, self.y), (self.x + 10, self.y - 10), (0, 0, 0))
         Drawer.draw_circle(painter,
                            self.x,
                            self.y,

@@ -1,10 +1,5 @@
-import sys
-
-from PyQt5.QtCore import Qt, QPoint
-from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import QMainWindow, QDesktopWidget, QApplication, QDockWidget
 
-from v1_0.Board import *
 from v1_0.Network import *
 
 

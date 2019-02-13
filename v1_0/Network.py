@@ -1,8 +1,4 @@
 import math
-import random
-
-from PyQt5.QtCore import QSize
-from PyQt5.QtWidgets import QFrame
 
 from v1_0.Board import *
 from v1_0.Drawer import Drawer
