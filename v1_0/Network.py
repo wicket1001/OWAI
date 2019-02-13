@@ -4,8 +4,8 @@ import random
 from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QFrame
 
-from Main import Drawer
-from Board import Board
+from v1_0.Board import *
+from v1_0.Drawer import Drawer
 
 
 class Network(QFrame):
@@ -78,7 +78,7 @@ class Network(QFrame):
         self.clear_network()
         for i in range(len(self.layers)):
             for j in range(self.layers[i]):
-                self.set_node_at(j, Board.BoardHeight - i - 1, random.randint(1, 6))
+                self.set_node_at(j, Board.Board.BoardHeight - i - 1, random.randint(1, 6))
 
     @staticmethod
     def sigmoid(x):

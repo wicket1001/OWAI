@@ -1,7 +1,6 @@
 import random
 
-from Main import Drawer
-
+from v1_0.Drawer import Drawer
 
 class Entity(object):
     def __init__(self, size):
@@ -23,7 +22,7 @@ class Entity(object):
                            self.y,
                            size,
                            (255, 0, 0))
-        Drawer.draw_line(painter, (self.x, self.y), (max(self.x - 20, 0), max(self.y - 20, 0)), (0, 0, 0))
+        # Drawer.draw_line(painter, (self.x, self.y), (max(self.x - 20, 0), max(self.y - 20, 0)), (0, 0, 0))
 
     '''
     def x(self, index):

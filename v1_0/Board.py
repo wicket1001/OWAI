@@ -5,8 +5,8 @@ from PyQt5.QtCore import pyqtSignal, QBasicTimer, Qt, QSize
 from PyQt5.QtGui import QPainter
 from PyQt5.QtWidgets import QFrame
 
-from Main import Drawer
-from Entity import Entity
+from v1_0.Drawer import Drawer
+from v1_0.Entity import *
 
 
 class Board(QFrame):
